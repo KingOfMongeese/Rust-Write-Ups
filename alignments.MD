@@ -58,7 +58,7 @@ b, size 8. offset 8-15.
 
 c, size 4. Offset 16 - 19
 
-padding 4 bytes. Offset 20 - 23, needed to be a multiple of MAX_ALIGN or 8 here
+padding 4 bytes. Offset 20 - 23. Size 0-23 (24): needed to be a multiple of MAX_ALIGN or 8 here
 
 so a C safe POD struct looks like
 
